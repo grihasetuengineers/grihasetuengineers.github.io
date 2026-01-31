@@ -237,3 +237,7 @@ background-image: url("./img/banner.jpg");
 .hero {
     background: red;
 }
+.hero {
+    position: absolute;
+    bottom: 0;
+}
