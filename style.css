@@ -217,3 +217,7 @@ body {
 .hero {
   min-height: 50vh;
 }
+.hero {
+  background: pink !important;
+  border: 2px solid red;
+}
