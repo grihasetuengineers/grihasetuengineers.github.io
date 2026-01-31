@@ -225,3 +225,11 @@ body {
     min-height: auto;
     padding: 80px 20px;
 }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
