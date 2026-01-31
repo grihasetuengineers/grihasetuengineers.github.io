@@ -63,3 +63,31 @@
   color: #444;
   line-height: 1.6;
 }
+  .services {
+  padding: 70px 20px;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  color: #0d2c54;
+  margin-bottom: 40px;
+}
+
+.service-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.service {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
