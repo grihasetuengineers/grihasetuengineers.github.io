@@ -249,3 +249,12 @@ background-image: url("./img/banner.jpg");
     position: absolute;
     bottom: 0;
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+}
