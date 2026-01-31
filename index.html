@@ -4,14 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Grihasetu Engineers | Construction & Engineering</title>
-
-  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<!-- NAVBAR -->
+<!-- ===== NAVBAR ===== -->
 <header class="navbar">
   <div class="container nav-flex">
     <div class="logo">Grihasetu Engineers</div>
@@ -24,44 +26,50 @@
   </div>
 </header>
 
-<!-- HERO -->
+<!-- ===== HERO ===== -->
 <section class="hero">
+  <div class="hero-overlay"></div>
   <div class="hero-box">
     <h1>Trusted Construction & Engineering Services</h1>
     <p>Reliable • Transparent • On-Time Delivery</p>
-    <a href="#contact" class="btn-primary">Get in Touch</a>
+    <a href="#contact" class="btn-primary">Get a Free Quote</a>
   </div>
 </section>
 
-<!-- SERVICES -->
+<!-- ===== SERVICES ===== -->
 <section id="services" class="section">
   <h2>Our Services</h2>
   <div class="cards">
-    <div class="card">House Construction</div>
-    <div class="card">Planning & Design</div>
-    <div class="card">Billing & Estimation</div>
-    <div class="card">Site Supervision</div>
+    <div class="card"><span>🏠</span> House Construction</div>
+    <div class="card"><span>📐</span> Planning & Design</div>
+    <div class="card"><span>📊</span> Billing & Estimation</div>
+    <div class="card"><span>👷</span> Site Supervision</div>
   </div>
 </section>
 
-<!-- WHY US -->
+<!-- ===== WHY CHOOSE US ===== -->
 <section id="why" class="section bg-light">
   <h2>Why Choose Us</h2>
   <div class="cards">
-    <div class="card">Quality Construction</div>
-    <div class="card">Transparent Billing</div>
-    <div class="card">Experienced Engineers</div>
-    <div class="card">On-Time Delivery</div>
+    <div class="card">✅ Quality Construction</div>
+    <div class="card">✅ Transparent Billing</div>
+    <div class="card">✅ Experienced Engineers</div>
+    <div class="card">✅ On-Time Delivery</div>
   </div>
 </section>
 
-<!-- PROJECTS -->
+<!-- ===== PROJECTS ===== -->
 <section id="projects" class="section">
   <h2>Our Projects</h2>
-  <p class="muted">Project gallery coming soon.</p>
+  <div class="projects-gallery">
+    <div class="project-card">Project 1</div>
+    <div class="project-card">Project 2</div>
+    <div class="project-card">Project 3</div>
+    <div class="project-card">Project 4</div>
+  </div>
 </section>
 
-<!-- LOCATION -->
+<!-- ===== LOCATION ===== -->
 <section class="section bg-light">
   <h2>Our Location</h2>
   <div class="map">
@@ -69,20 +77,41 @@
   </div>
 </section>
 
-<!-- CONTACT -->
+<!-- ===== CONTACT ===== -->
 <section id="contact" class="section">
   <h2>Contact Us</h2>
-  <div class="contact-box">
-    <p><b>Phone:</b> 8002472298</p>
-    <p><b>Email:</b> grihasetuengineers@gmail.com</p>
-    <p><b>Service Area:</b> Bihar & Uttar Pradesh</p>
+  <form class="contact-form">
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Phone" required>
+    <textarea placeholder="Message" rows="4" required></textarea>
+    <button type="submit" class="btn-primary">Send Message</button>
+  </form>
+  <div class="contact-info">
+    <p>📞 8002472298</p>
+    <p>📧 grihasetuengineers@gmail.com</p>
+    <p>📍 Bihar & Uttar Pradesh</p>
   </div>
 </section>
 
-<!-- FOOTER -->
+<!-- ===== WHATSAPP BUTTON ===== -->
+<a href="https://wa.me/918002472298" class="whatsapp-btn" target="_blank">💬</a>
+
+<!-- ===== FOOTER ===== -->
 <footer>
   © 2026 Grihasetu Engineers. All Rights Reserved.
 </footer>
+
+<!-- ===== JS ===== -->
+<script>
+  // Smooth Scroll
+  document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      document.querySelector(link.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
 
 </body>
 </html>
