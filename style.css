@@ -91,3 +91,30 @@
   font-weight: 500;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
+.why-us {
+  padding: 70px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.why-us h2 {
+  font-size: 32px;
+  color: #0d2c54;
+  margin-bottom: 35px;
+}
+
+.why-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.why-item {
+  background: #f4f6f8;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
