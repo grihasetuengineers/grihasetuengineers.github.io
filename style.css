@@ -258,3 +258,157 @@ background-image: url("./img/banner.jpg");
 .card {
   width: 100%;
 }
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #ffffff;
+}
+
+/* ===== COMMON SECTIONS ===== */
+section {
+  padding: 60px 20px;
+  width: 100%;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(to right, #f4f6f8, #e0e7ff);
+  padding: 80px 20px;
+}
+
+.hero-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hero-card {
+  background: #fff;
+  padding: 30px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+/* ===== SERVICES ===== */
+.services {
+  background: #f9fafb;
+}
+
+.services-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-item {
+  background: #fff;
+  padding: 20px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+/* ===== WHY CHOOSE US ===== */
+.why-us {
+  background: #ffffff;
+}
+
+.why-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.why-item {
+  background: #f1f5f9;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+/* ===== CONTACT ===== */
+.contact {
+  background: #f9fafb;
+  text-align: center;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+/* ===== PROJECTS ===== */
+.projects {
+  background: #ffffff;
+}
+
+.projects iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: 12px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #0d2c54;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+/* ===== WHATSAPP BUTTON ===== */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+/* ===== MOBILE FIX ===== */
+@media (max-width: 768px) {
+
+  section {
+    padding: 45px 15px;
+  }
+
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero-cards,
+  .services-box,
+  .why-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-card,
+  .service-item {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .projects iframe {
+    height: 250px;
+  }
+}
