@@ -214,3 +214,6 @@ body {
 .hero {
   background-image: url("./images/banner.jpg");
 }
+.hero {
+  min-height: 50vh;
+}
