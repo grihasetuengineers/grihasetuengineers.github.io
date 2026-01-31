@@ -211,3 +211,6 @@ body {
 .hero {
     height: 100vh;
 }
+.hero {
+  background-image: url("./images/banner.jpg");
+}
