@@ -76,4 +76,12 @@ footer {
   .hero {
     flex-direction: column;
     text-align: center;
-  }
+  } h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section {
+  max-width: 1100px;
+  margin: auto;
+}
