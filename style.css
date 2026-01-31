@@ -118,3 +118,32 @@
   font-size: 16px;
   font-weight: 500;
 }
+.contact {
+  padding: 70px 20px;
+  background: #f4f6f8;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  color: #0d2c54;
+  margin-bottom: 25px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #e63946;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer {
+  background: #0d2c54;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
