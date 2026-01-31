@@ -44,3 +44,15 @@ footer {
   text-align: center;
   padding: 20px;
 }
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 60px 20px;
+}
+
+.hero img {
+  max-width: 100%;
+  border-radius: 10px;
+}
