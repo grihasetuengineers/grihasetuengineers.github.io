@@ -221,3 +221,7 @@ body {
   background: pink !important;
   border: 2px solid red;
 }
+.hero {
+    min-height: auto;
+    padding: 80px 20px;
+}
