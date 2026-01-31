@@ -1,370 +1,112 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 40px;
-  background: #0d2c54;
-}
-
-.header a {
-  color: white;
-  margin-left: 20px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.logo {
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-}
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: #f4f6f8;
-}
-
-.hero h1 {
-  font-size: 40px;
-  color: #0d2c54;
-  margin-bottom: 15px;
-}
-
-.hero p {
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 25px;
-}
-
-.btn {
-  background: #e63946;
-  color: white;
-  padding: 12px 28px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: 600;
-}
-.about {
-  padding: 70px 20px;
-  text-align: center;
-  background: #ffffff;
-}
-
-.about h2 {
-  font-size: 32px;
-  color: #0d2c54;
-  margin-bottom: 20px;
-}
-
-.about p {
-  max-width: 800px;
-  margin: 0 auto 15px;
-  font-size: 16px;
-  color: #444;
-  line-height: 1.6;
-}
-  .services {
-  padding: 70px 20px;
-  background: #f4f6f8;
-  text-align: center;
-}
-
-.services h2 {
-  font-size: 32px;
-  color: #0d2c54;
-  margin-bottom: 40px;
-}
-
-.service-box {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.service {
-  background: white;
-  padding: 25px;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 500;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-}
-.why-us {
-  padding: 70px 20px;
-  background: #ffffff;
-  text-align: center;
-}
-
-.why-us h2 {
-  font-size: 32px;
-  color: #0d2c54;
-  margin-bottom: 35px;
-}
-
-.why-box {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-.why-item {
-  background: #f4f6f8;
-  padding: 20px;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 500;
-}
-.contact {
-  padding: 70px 20px;
-  background: #f4f6f8;
-  text-align: center;
-}
-
-.contact h2 {
-  font-size: 32px;
-  color: #0d2c54;
-  margin-bottom: 25px;
-}
-
-.contact p {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.contact a {
-  color: #e63946;
-  text-decoration: none;
-  font-weight: 600;
-}
-.footer {
-  background: #0d2c54;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  font-size: 14px;
-}
-.whatsapp-float {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #25D366;
-  color: white;
-  font-size: 28px;
-  padding: 14px 18px;
-  border-radius: 50%;
-  text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  z-index: 999;
-}.gallery {
-  padding: 70px 20px;
-  text-align: center;
-  background: #ffffff;
-}
-
-.gallery h2 {
-  font-size: 32px;
-  color: #0d2c54;
-  margin-bottom: 30px;
-}
-
-.gallery-box {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-  gap: 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.gallery img {
-  width: 100%;
-  border-radius: 8px;
-}
-<meta name="description" content="Grihasetu Engineers – Trusted house construction, planning, billing & civil engineering services in Bihar and Uttar Pradesh.">
-<meta name="keywords" content="House construction Bihar, Civil engineer UP, Building contractor">
-html {
-  scroll-behavior: smooth;
-}
-.btn:hover {
-  background: #d62828;
-  transform: scale(1.05);
-  transition: 0.3s;
-}
-
-.service:hover, .why-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
-  transition: 0.3s;
-}
-.hero { background: linear-gradient(to right, #f4f6f8, #e0e7ff); }
-.about { background: #ffffff; }
-.services { background: #f0f4f8; }
-.why-us { background: #ffffff; }
-.contact { background: #f0f4f8; }
-.footer { background: #0d2c54; color: #fff; }
-body {
-  font-family: 'Roboto', sans-serif;
-}
-.hero {
-    height: 100vh;
-}
-.hero {
-  background-image: url("./images/banner.jpg");
-}
-.hero {
-  min-height: 50vh;
-}
-.hero {
-  background: pink !important;
-  border: 2px solid red;
-}
-.hero {
-    min-height: auto;
-    padding: 80px 20px;
-}
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-background-image: url("./img/banner.jpg");
-.hero {
-    background: red;
-}
-.hero {
-    position: absolute;
-    bottom: 0;
-}
-.hero {
-    position: absolute;
-    bottom: 0;
-}
-.hero {
-    position: absolute;
-    bottom: 0;
-}
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.card {
-  width: 100%;
-}
-/* ===== RESET ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.6;
-  color: #333;
   background: #ffffff;
+  color: #222;
+  line-height: 1.6;
 }
 
-/* ===== COMMON SECTIONS ===== */
-section {
-  padding: 60px 20px;
-  width: 100%;
+/* ===== NAVBAR ===== */
+.navbar {
+  background: #0d2c54;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-h1, h2, h3 {
-  margin-bottom: 20px;
-  text-align: center;
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
 }
 
 /* ===== HERO ===== */
 .hero {
-  background: linear-gradient(to right, #f4f6f8, #e0e7ff);
-  padding: 80px 20px;
-}
-
-.hero-cards {
+  min-height: 90vh;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right, #f4f6f8, #e8eef5);
+  padding: 20px;
 }
 
-.hero-card {
-  background: #fff;
-  padding: 30px;
-  width: 280px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+.hero-content h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #0d2c54;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  padding: 60px 20px;
   text-align: center;
 }
 
-/* ===== SERVICES ===== */
-.services {
-  background: #f9fafb;
+.section h2 {
+  margin-bottom: 30px;
 }
 
-.services-box {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.light {
+  background: #f5f7fa;
+}
+
+.center-text {
+  color: #555;
+}
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-.service-item {
+.card {
   background: #fff;
   padding: 20px;
-  width: 260px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  text-align: center;
-}
-
-/* ===== WHY CHOOSE US ===== */
-.why-us {
-  background: #ffffff;
-}
-
-.why-box {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.why-item {
-  background: #f1f5f9;
-  padding: 15px 20px;
   border-radius: 8px;
-  font-size: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-weight: 500;
 }
 
-/* ===== CONTACT ===== */
-.contact {
-  background: #f9fafb;
-  text-align: center;
-}
-
-.contact p {
-  margin: 10px 0;
-}
-
-/* ===== PROJECTS ===== */
-.projects {
-  background: #ffffff;
-}
-
-.projects iframe {
+/* ===== MAP ===== */
+.map iframe {
   width: 100%;
   height: 300px;
-  border: 0;
-  border-radius: 12px;
+  border: none;
+  border-radius: 10px;
+  max-width: 1000px;
 }
 
 /* ===== FOOTER ===== */
@@ -376,39 +118,13 @@ footer {
   font-size: 14px;
 }
 
-/* ===== WHATSAPP BUTTON ===== */
-.whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 999;
-}
-
-/* ===== MOBILE FIX ===== */
-@media (max-width: 768px) {
-
-  section {
-    padding: 45px 15px;
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+  nav {
+    display: none;
   }
 
-  .hero {
-    padding: 60px 15px;
-  }
-
-  .hero-cards,
-  .services-box,
-  .why-box {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-card,
-  .service-item {
-    width: 100%;
-    max-width: 320px;
-  }
-
-  .projects iframe {
-    height: 250px;
+  .hero-content h2 {
+    font-size: 22px;
   }
 }
