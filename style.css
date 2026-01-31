@@ -208,3 +208,6 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
 }
+.hero {
+    height: 100vh;
+}
