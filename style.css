@@ -56,3 +56,13 @@ footer {
   max-width: 100%;
   border-radius: 10px;
 }
+<section id="services">
+  <h2>Our Services</h2>
+
+  <div class="service-box">
+    <p>🏠 House Construction</p>
+    <p>📐 Planning & Design</p>
+    <p>📊 Estimation & Billing</p>
+    <p>🔧 Renovation Work</p>
+  </div>
+</section>
