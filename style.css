@@ -234,3 +234,6 @@ body {
     padding: 0;
 }
 background-image: url("./img/banner.jpg");
+.hero {
+    background: red;
+}
