@@ -1,66 +1,123 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Grihasetu Engineers | House Construction & Architects</title>
-  <meta name="description" content="Grihasetu Engineers – Professional house construction, planning, structural design, and architectural services." />  <style>
-    :root{
-      --primary:#0d6efd;
-      --dark:#0f172a;
-      --muted:#6b7280;
-      --bg:#f4f6f8;
-      --white:#ffffff;
-    }
+<meta charset="UTF-8">
+<title>Grihasetu Engineers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background:var(--bg);
-      color:var(--dark);
-      line-height:1.6;
-    }
+<style>
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f4f6f8;
+  color:#111;
+}
 
-    a{text-decoration:none}
+/* NAVBAR */
+nav{
+  background:#111827;
+  padding:15px;
+  text-align:center;
+}
+nav a{
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:bold;
+}
 
-    /* NAVBAR */
-    header{
-      background:#0f172a;
-      position:sticky;top:0;z-index:1000;
-    }
-    .nav{
-      max-width:1200px;margin:auto;
-      display:flex;justify-content:space-between;align-items:center;
-      padding:14px 20px;color:#fff;
-    }
-    .logo{font-size:22px;font-weight:800}
-    .logo span{color:var(--primary)}
-    .nav a{color:#fff;margin-left:18px;font-weight:500}
+/* HERO */
+.hero{
+  background:#0d6efd;
+  color:white;
+  padding:80px 20px;
+  text-align:center;
+}
+.hero h1{
+  font-size:40px;
+}
+.hero p{
+  font-size:18px;
+}
+.hero a{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 25px;
+  background:white;
+  color:#0d6efd;
+  text-decoration:none;
+  border-radius:5px;
+  font-weight:bold;
+}
 
-    /* HERO */
-    .hero{
-      background:linear-gradient(rgba(13,110,253,.92),rgba(13,110,253,.92));
-      color:#fff;
-      padding:90px 20px;
-    }
-    .hero-inner{
-      max-width:1200px;margin:auto;
-      display:grid;grid-template-columns:1.2fr .8fr;gap:30px;
-      align-items:center;
-    }
-    .hero h1{font-size:44px;margin-bottom:12px}
-    .hero p{font-size:18px}
-    .btn{
-      display:inline-block;margin-top:20px;
-      background:#fff;color:var(--primary);
-      padding:12px 26px;border-radius:8px;font-weight:700;
-    }
+/* SECTION */
+.section{
+  max-width:1100px;
+  margin:auto;
+  padding:60px 20px;
+}
+.card{
+  background:white;
+  padding:20px;
+  border-radius:8px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  margin-top:20px;
+}
 
-    /* SECTIONS */
-    section{padding:70px 20px}
-    .wrap{max-width:1200px;margin:auto}
-    h2{font-size:32px;margin-bottom:10px}
-    .subtitle{color:var(--muted);max-width:700px}
+/* FOOTER */
+footer{
+  background:#111827;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+</style>
+</head>
 
-    /* CARDS */
-    .grid{
+<body>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+  <h1>Grihasetu Engineers</h1>
+  <p>Professional Engineers & Architects for Your Dream Home</p>
+  <a href="#">Get Free Consultation</a>
+</section>
+
+<section class="section">
+  <h2>About Us</h2>
+  <div class="card">
+    Grihasetu Engineers provides professional house construction, planning,
+    architectural design, and structural engineering services with quality and transparency.
+  </div>
+</section>
+
+<section class="section">
+  <h2>Our Services</h2>
+  <div class="card">
+    ✔ House Planning & Design<br>
+    ✔ Structural Design<br>
+    ✔ Construction Supervision<br>
+    ✔ Estimation & Billing
+  </div>
+</section>
+
+<section class="section">
+  <h2>Contact Us</h2>
+  <div class="card">
+    📞 +91-XXXXXXXXXX<br>
+    📧 info@grihasetuengineers.com
+  </div>
+</section>
+
+<footer>
+  © 2026 Grihasetu Engineers | All Rights Reserved
+</footer>
+
+</body>
+</html>
